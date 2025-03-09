@@ -8,6 +8,7 @@ export default function AdminLayout() {
         <Link to="/admin/dashboard" className="p-3 rounded-lg hover:bg-gray-200">Dashboard</Link>
         <Link to="/admin/car-management" className="p-3 rounded-lg hover:bg-gray-200">Quản lí xe</Link>
         <Link to="/admin/car-order" className="p-3 rounded-lg hover:bg-gray-200">Quản lí đơn đặt xe</Link>
+        <Link to="/admin/driver-management" className="p-3 rounded-lg hover:bg-gray-200">Quản lí tài xế</Link>
       </div>
 
       {/* Nội dung chính */}

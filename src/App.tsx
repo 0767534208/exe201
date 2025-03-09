@@ -12,6 +12,7 @@ import CarDetail from "./pages/main/CarDetail";
 import CheckOut from "./pages/payment/CheckOutPage";
 import Landing from "./pages/main/LandingPage";
 import ProfilePage from "./pages/user/Profile";
+import DriverManagement from "./pages/admin/DriverManagement";
 
 function App() {
     return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="car-management" element={<CarManagement />} />
           <Route path="car-order" element={<CarOrder />} />
+          <Route path="driver-management" element={<DriverManagement />} />
         </Route>
 
         <Route element={<LoginRegisterLayout />}>
