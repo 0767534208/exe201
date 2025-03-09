@@ -11,6 +11,7 @@ import CarList from "./pages/main/CarList";
 import CarDetail from "./pages/main/CarDetail";
 import CheckOut from "./pages/payment/CheckOutPage";
 import Landing from "./pages/main/LandingPage";
+import ProfilePage from "./pages/user/Profile";
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="car-list" element={<CarList />} />
         <Route path="car-detail" element={<CarDetail />} />
         <Route path="checkout" element={<CheckOut />} />
+        <Route path="profile" element={<ProfilePage />} />
         </Route>
 
         {/* Route dành cho admin */}
