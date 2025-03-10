@@ -13,6 +13,7 @@ import CheckOut from "./pages/payment/CheckOutPage";
 import Landing from "./pages/main/LandingPage";
 import ProfilePage from "./pages/user/Profile";
 import DriverManagement from "./pages/admin/DriverManagement";
+import CarQuality from "./pages/admin/CarQuality";
 
 function App() {
     return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="car-management" element={<CarManagement />} />
           <Route path="car-order" element={<CarOrder />} />
           <Route path="driver-management" element={<DriverManagement />} />
+          <Route path="car-quality" element={<CarQuality />} />
         </Route>
 
         <Route element={<LoginRegisterLayout />}>
